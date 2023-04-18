@@ -12,6 +12,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html')
+        detalles_eventos : resolve(__dirname, 'index.html')
       }
     }
   },
