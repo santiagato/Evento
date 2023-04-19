@@ -3,9 +3,17 @@
 @tailwind utilities;
 
 body {
-    @apply text-gray-300 p-0 m-0;
+    @apply text-gray-300 p-0 m-0 mb-24;
 }
 
 header {
     @apply bg-gray-800;
+}
+
+.titulos{
+    @apply tracking-wide text-center text-[1.2em] font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#3d67ff] via-[#9c5abd] to-[#b452e4];
+}
+
+#bar svg.icosn{
+    @apply w-6 h-6 mb-1 text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500;
 }
