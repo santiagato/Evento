@@ -1,4 +1,4 @@
-name: "despliegue de la aplicacion"
+name: "despliegue de la apps"
 on:
     push:
       branches: 
