@@ -40,3 +40,34 @@ header {
 main{
     @apply max-w-2xl mx-auto;
 }
+
+.btn {
+  display: inline-block;
+  background-color: rgb(160, 58, 58);
+  border-radius: 10px;
+  margin-left: 200px;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  width: 250px;
+}
+.btn {
+  background-color: brown;
+}
+
+.btn2 {
+  display: inline-block;
+  background-color: rgb(27, 36, 65);
+  border-radius: 10px;
+  margin-left: 100px;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;  
+  width: 250px;
+  text-decoration: none;
+}
+.btn2 {
+  background-color: rgb(27, 36, 65);
+}
