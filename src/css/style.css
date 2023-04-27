@@ -60,13 +60,14 @@ main{
   display: inline-block;
   background-color: rgb(27, 36, 65);
   border-radius: 10px;
-  margin-right: 333px;
+  margin-right: 80px;
   padding: 15px;
   cursor: pointer;
   font-size: 16px;
   text-align: center;  
   width: 250px;
   text-decoration: none;
+  margin-left: 100;
 }
 .btn2 {
   background-color: rgb(27, 36, 65);
