@@ -15,7 +15,7 @@ let eventos_contenedor = document.getElementById('eventos');
 querySnapshot.forEach((doc) => {
   let eventos = doc.data()
     eventos_contenedor.innerHTML +=
-    `<li>
+    `
     <div class="container">
     <img src="${eventos.imagen}" alt="${eventos.nombre}" class="h-auto max-w-full ml-auto mr-8 mt-4"></img>
     
@@ -28,5 +28,5 @@ querySnapshot.forEach((doc) => {
   <span class=" flex  font-medium top-20 left-16 ">Publico</span>
   </svg>
   
-</li>`;
+`;
 });
