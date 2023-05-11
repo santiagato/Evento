@@ -17,7 +17,7 @@ querySnapshot.forEach((doc) => {
     eventos_contenedor.innerHTML +=
     `<li>
     <div class="container">
-    <img src="${eventos.imagen}" alt="${eventos.nombre}" class="h-auto max-w-full ml-auto mr-8 mt-4"></img>
+    <img src="${eventos.imagen}" alt="" class="h-auto max-w-full ml-auto mr-8 mt-4"></img>
     
     <p class="  font-medium top-20 left-16 ">${eventos.descripcion}</p> 
     <span class="  font-medium top-20 left-16 ">${eventos.sede_id}</span>
