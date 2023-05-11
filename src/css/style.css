@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 body {
-    @apply text-gray-300 p-0 m-0 mb-24;
+    @apply text-black p-0 m-0 mb-24;
 }
 
 header {
-    @apply bg-gray-800;
+    @apply bg-gray-800 text-white;
 }
 
 .titulos{
@@ -39,4 +39,23 @@ header {
 
 main{
     @apply max-w-2xl mx-auto;
+}
+
+.imagen {
+width: 350px;
+height: 250px;
+}
+
+.container {
+  text-align: center;
+  color: rgb(245, 243, 243);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(1, 1, 1);
+}
+
+.titulo {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
