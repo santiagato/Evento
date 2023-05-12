@@ -13,6 +13,9 @@ export default defineConfig({
   //Add base route if deployiing on production
   base: env.mode === "production" ? "/eventos-app/" : "/",
   build: {
+
+    target: "esnext",
+    
     outDir: "docs",
     assetsDir: "assets",
     rollupOptions: {
