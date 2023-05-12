@@ -27,7 +27,7 @@ export default defineConfig({
         timeline: resolve(__dirname, 'timeline.html'),
         perfil: resolve(__dirname, 'perfil.html'),
         tickets: resolve(__dirname, 'tickets.html'),
-        artistas: resolve(__dirname, "artistas.html"),
+        artistas: resolve(__dirname, 'artistas.html'),
       }
     }
   },
