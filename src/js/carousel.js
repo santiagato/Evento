@@ -1,6 +1,6 @@
 let carousel = document.getElementById('carousel');
 
-carousel.innerHTML = `<div class="relative h-56 overflow-hidden md:h-96">
+carousel.innerHTML = `
 
 <div id="indicators-carousel" class="relative " data-carousel="slide">
 <!-- Carousel wrapper -->
