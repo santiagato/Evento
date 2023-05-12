@@ -1,4 +1,4 @@
-import"./carousel-b42affec.js";import{R as o,_ as t,f as n,d as a}from"./firebase-bb022c0b.js";const i=o(t(a,"eventos")),l=await n(i);let c=document.getElementById("eventos");l.forEach(e=>{let s=e.data();c.innerHTML+=`<li>  <div class="nombre">${s.nombre}</div>
+import"./carousel-3009167f.js";import{R as o,_ as t,f as n,d as a}from"./firebase-bb022c0b.js";const i=o(t(a,"eventos")),l=await n(i);let c=document.getElementById("eventos");l.forEach(e=>{let s=e.data();c.innerHTML+=`<li>  <div class="nombre">${s.nombre}</div>
     
     <div class="container">
     <img src="${s.imagen}" alt="" class="h-auto max-w-full ml-auto mr-8 mt-4"></img>
