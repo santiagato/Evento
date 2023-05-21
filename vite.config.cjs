@@ -21,7 +21,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        detalles: resolve(__dirname, 'editar-index.html'),
+        editar: resolve(__dirname, 'editar-index.html'),
       }
     }
   },
