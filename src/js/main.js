@@ -7,6 +7,3 @@ import './paginas/barra.js';
 
 //impotar header
 import './header';
-
-//impotar header
-import './carousel';

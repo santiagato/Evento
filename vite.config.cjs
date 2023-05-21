@@ -21,13 +21,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        detalles: resolve(__dirname, 'detalles.html'),
-        informacion: resolve(__dirname, 'informacion.html'),
-        locations: resolve(__dirname, 'locations.html'),
-        timeline: resolve(__dirname, 'timeline.html'),
-        perfil: resolve(__dirname, 'perfil.html'),
-        tickets: resolve(__dirname, 'tickets.html'),
-        artistas: resolve(__dirname, 'artistas.html'),
+        detalles: resolve(__dirname, 'editar-index.html'),
       }
     }
   },

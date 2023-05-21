@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alquile-casas</title>
+</head>
+<body>
+    <main class="text-gray-800">
+        <form  method="post" class="flex flex-col gap-2    ">
+            <h1>Editando datos de la casa</h1>
+            
+            <!-- URl de la foto de la casa -->
+            <label for="imagen">imagen de la casa</label>
+            <input type="text" id="imagen">
+
+            <!-- precio de la casa -->
+            <label for="camas">camas</label>
+            <input type="text" id="camas">
+
+            <!-- cantidad de baños -->
+            <label for="baños">baños</label>
+            <input type="text" id="baños">
+
+            <label for="direccion">direccion</label>
+            <input type="text" id="direccion">
+
+            <!-- cantidad de camas -->
+            <label for="precio">precio</label>
+            <select id="precio">
+                <option value="200$">200$</option>
+                <option value="150$">150$</option>
+                <option value="250$">250$</option>
+                <option value="300$$">300$</option>
+            </select>
+
+            <button id="guardar" class="bg-red-500 text-white p-2" type="button">
+                Guardar
+            </button>
+        </form>
+    </main>
+
+    <div id="barra"></div>
+
+    <script src="./src/js/main.js" type="module"></script>
+    <script src="./src/js/casas/casas.js" type="module"></script>
+
+</body>
+</html>
